@@ -1,9 +1,9 @@
+import java.util.ArrayList;
+
 public class Main{
 	public static void main (String[] args){
-		if(ags.length() == 0){
-			System.out.println("NO hay argumentos");
-		}else
-			System.out.println("Hay " + args.length() + " argumentos");
+		for(int i = 0; i < args.length; i++){
+			System.out.println("ARGUMENTO " + i + ": " + args[i]);
 		}
 	}
 }
